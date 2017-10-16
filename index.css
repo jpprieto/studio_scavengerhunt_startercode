@@ -1,0 +1,29 @@
+
+header{
+    text-align:center;
+    font-family: sans-serif;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+      -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+      -webkit-filter: hue-rotate(360deg);
+    }
+    
+}
+body{
+    font-family: serif;
+    background-color: #483C32;
+}
+h3{
+     text-align:center;
+    font-family: sans-serif;
+}
